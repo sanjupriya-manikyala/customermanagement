@@ -1,5 +1,5 @@
 // actions.test.js
-import { incrementCounter, decrementCounter } from './actions';
+import { incrementCounter, decrementCounter } from '../actions/actions';
 
 describe('actions', () => {
   it('should create an action to increment the counter', () => {

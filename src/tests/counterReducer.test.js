@@ -1,5 +1,5 @@
 // counterReducer.test.js
-import counterReducer from './counterReducer';
+import counterReducer from '../reducers/counterReducer';
 
 describe('counterReducer', () => {
   it('should return the initial state', () => {

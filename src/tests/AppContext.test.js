@@ -1,7 +1,7 @@
 // src/AppContext.test.js
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import { AppContextProvider, AppContext } from './AppContext';
+import { AppContextProvider, AppContext } from '../AppContext';
 
 describe('AppContext', () => {
   test('should provide the count value to consumers', () => {
